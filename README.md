@@ -1,6 +1,6 @@
 # R - Wine quality
 
-**:black_nib: [Codes file](https://github.com/Janette-Le/R-Wine-quality/blob/main/Codes.R)**
+**:black_nib: [Codes file](https://github.com/Janette-Le/R-Wine-quality/blob/main/Codes.R)**<br>
 **:page_with_curl: [Report](https://github.com/Janette-Le/R-Wine-quality/blob/main/Report.pdf)**
 
 Wine (from Latin vinum) is an alcoholic beverage made from grapes, fermented without the addition of sugars/acids/enzymes/water/other nutrients, with a history lasting for thousands of years and is closely related to the history of agriculture, cuisine, civilization, and humanity. 
@@ -10,12 +10,12 @@ The taste of wine depends on various elements, and is strongly related to 11 typ
 ## Project sections:
 1. Project topic
 2. Preliminary Exploratory Analysis
-  - Data cleansing
-  - Descriptive Statistics
+   - Data cleansing
+   - Descriptive Statistics
 3. Correlation between Variables
 4. Model Building: Multiple Linear Regression Model
 5. Model Optimization
-  - Model Optimization by Utilizing Stepwise Regression
-  - Model Optimization by Comparing with LASSO
+   - Model Optimization by Utilizing Stepwise Regression
+   - Model Optimization by Comparing with LASSO
 6. Statistical Fndings after Comparing Different Models 
 7. Conclusion and insights
