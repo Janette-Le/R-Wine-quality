@@ -38,8 +38,8 @@ The taste of wine depends on various elements, and is strongly related to 11 typ
 <p align="justify">As we can see, the six strongest features affect the quality of wine are volatile.acidity, citric.acid, total.sulfur.dioxide, density, sulphates, and alcohol.</p>
 
 # Model Building: Multiple Linear Regression Model
-![image4](/images/4.PNG)
 <p align="justify">The F-statistics value is 78.58, p-value is 2.2e-16 while the R^2 is 0.37, indicating the performance of the model is relatively fitting well but some improvement is necessary needed</p>
+![image4](/images/4.PNG)
 
 # Model Optimization
 ## Model Optimization by Utilizing Stepwise Regression
@@ -47,8 +47,7 @@ The taste of wine depends on various elements, and is strongly related to 11 typ
 ## Model Optimization by Comparing with LASSO
   <p align="justify">In statistics and machine learning, least absolute shrinkage and selection operator (LASSO) is a regression analysis method that performs both variable selection and regularization in order to enhance the prediction accuracy and interpretability of the statistical model it produces. In other words, LASSO is a shrinkage and variable selection method for linear regression model. The advantage of the LASSO model is that LASSO regression works like a feature selector that picks out the most important coefficients(those are most predictive and have the lowest p-values), meanwhile, shrinks these irrelevant coefficients exactly toward zero in order to minimize prediction errors.</p>
 # Statistical Findings after Comparing Different Models 
-<p align="justify">I used the mean square error (MSE) to compare previous model and LASSO model. MSE is the average of the square of the errors. The larger the number, the larger the error. There is no correct value for MSE. In other words, the lower the value the better and 0 means the model is perfect. Since there is no correct answer, comparing the MSE value is a basic method of selecting one prediction model over another.
-</p>
+<p align="justify">I used the mean square error (MSE) to compare previous model and LASSO model. MSE is the average of the square of the errors. The larger the number, the larger the error. There is no correct value for MSE. In other words, the lower the value the better and 0 means the model is perfect. Since there is no correct answer, comparing the MSE value is a basic method of selecting one prediction model over another.</p>
 
 | Model | MSE |
 | ------|------ |
@@ -58,5 +57,4 @@ The taste of wine depends on various elements, and is strongly related to 11 typ
 
 # Conclusion and insights
 <p align="justify">Although both multiple linear regression model and LASSO model generate the relatively same MSE, I prefer to use LASSO since the model is more accurate on variable selections. By utilizing LASSO model I covered all the significant independent variables which show up in the both multiple linear regression model and stepwise regression model with minimized prediction error.<br>
-   Wine quality is a complex study, good wine is more than perfect combination of different chemical components. Under the regression techniques have been applied, I found out that **alcohol, sulphates, chloride, and acidity** play a major role in determining the quality scores.
-</p>
+   Wine quality is a complex study, good wine is more than perfect combination of different chemical components. Under the regression techniques have been applied, I found out that</p> **alcohol, sulphates, chloride, and acidity** play a major role in determining the quality scores.
