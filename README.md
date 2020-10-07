@@ -25,8 +25,8 @@ The taste of wine depends on various elements, and is strongly related to 11 typ
 ![image1](/images/2.png)
 <p align="justify">
    1. There is no blank entries (N/A) in our data set, but there is around 30% of  Zeros (0) are suitable for this data set because they refer to values of physicochemical test outcomes.<br>
-   2. Using <code>`boxplot()`</code> to examine extreme values, assuming that all abnormal values falling out of upper and lower whiskers line are outliers. There are around 30% values of the dataset considered as outliers, but we couldn't get rid of them all.<br> 
-   For 9 out of 11 independent variables, I apply some top and bottom limit to trim out the outliers and maintain the losing percentage to be around 2-3%, because their distributions tend to be normal. Especially for some variables that heavily positively skewed with long-tail extended for more than ¾ of the value scale, I use `<log10()>` to transform them.</p>
+   2. Using <code>boxplot()</code> to examine extreme values, assuming that all abnormal values falling out of upper and lower whiskers line are outliers. There are around 30% values of the dataset considered as outliers, but we couldn't get rid of them all.<br> 
+   For 9 out of 11 independent variables, I apply some top and bottom limit to trim out the outliers and maintain the losing percentage to be around 2-3%, because their distributions tend to be normal. Especially for some variables that heavily positively skewed with long-tail extended for more than ¾ of the value scale, I use <code>log10()<\code> to transform them.</p>
    
 ## Descriptive Statistics
 <p align="justify">
@@ -43,7 +43,7 @@ The taste of wine depends on various elements, and is strongly related to 11 typ
    
 </p>
 
-`boxplot()`
+
 
 # Model Optimization
   ## Model Optimization by Utilizing Stepwise Regression
