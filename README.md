@@ -8,7 +8,7 @@ After thousands of years of wine production, improvements in the winemaking proc
 The taste of wine depends on various elements, and is strongly related to 11 typical independent chemicals in red wine do affect its quality and to what extent. In another way, we use machine learning to determine which physicochemical properties make a wine “good”!</p>
 
 ## Project sections:
-1. Project topic
+1. [Project topic](#R-wine-quality)
 2. [Preliminary Exploratory Analysis](#prelimitary-exploration-analysis)
    - [Data cleansing]
    - [Descriptive Statistics]
