@@ -30,13 +30,17 @@ The taste of wine depends on various elements, and is strongly related to 11 typ
    
 ## Descriptive Statistics
 <p align="justify">By summarizing the red wine dataset, it is not hard to find the descriptive statistics on the chart, which can help us to learn the details of each variable. For example, the mean of fixed acidity, volatile acidity, citric acid, residual sugar etc., is 8.27, 0.53, 0.26 and 2.36 respectively. Mentioning about dependent variable Quality score, although the quality scale range from 0 to 8, but as can be noticed clearly that most of wine sample received the score of 5 and 6 (nearly 80% of all observations).</p>
-![image2](/images/3.PNG.jpg)
+
+![image3](/images/3.PNG)
+
 # Correlation between Variables
 ![image3](/images/1.jpg)
-<p align="justify">As we can see, the six strongest features affect the quality of wine are volatile.acidity, citric.acid, total.sulfur.dioxide, density, sulphates, and alcohol.</p> 
+<p align="justify">As we can see, the six strongest features affect the quality of wine are volatile.acidity, citric.acid, total.sulfur.dioxide, density, sulphates, and alcohol.</p>
+
 # Model Building: Multiple Linear Regression Model
 ![image4](/images/4.PNG)
 <p align="justify">The F-statistics value is 78.58, p-value is 2.2e-16 while the R^2 is 0.37, indicating the performance of the model is relatively fitting well but some improvement is necessary needed</p>
+
 # Model Optimization
   ## Model Optimization by Utilizing Stepwise Regression
   <p align="justify"> After establishing a multiple linear regression model with the critical variables: volatile.acidity, citric.acid, total.sulfur.dioxide, density, sulphates, and alcohol, it is better to perform the stepwise selection---Forward selection or Backward selection, which can be applied in the high-dimensional configuration, providing some additional insights. Firstly, performing the linear regression with all independent variables indicates that the volatile.acidity, total.sulfur.dioxide, pH, sulphates, and alcohol are the statistically significant roles in the regression that need to be adjusted. Then, running the backward selection to cut down the variables and leave the most important ones for the accuracy.</p>
