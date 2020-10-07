@@ -39,6 +39,7 @@ The taste of wine depends on various elements, and is strongly related to 11 typ
 
 # Model Building: Multiple Linear Regression Model
 <p align="justify">The F-statistics value is 78.58, p-value is 2.2e-16 while the R^2 is 0.37, indicating the performance of the model is relatively fitting well but some improvement is necessary needed</p>
+
 ![image4](/images/4.PNG)
 
 # Model Optimization
