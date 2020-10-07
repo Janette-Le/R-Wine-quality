@@ -43,10 +43,13 @@ The taste of wine depends on various elements, and is strongly related to 11 typ
 ![image4](/images/4.PNG)
 
 # Model Optimization
+
 ## Model Optimization by Utilizing Stepwise Regression
   <p align="justify"> After establishing a multiple linear regression model with the critical variables: volatile.acidity, citric.acid, total.sulfur.dioxide, density, sulphates, and alcohol, it is better to perform the stepwise selection---Forward selection or Backward selection, which can be applied in the high-dimensional configuration, providing some additional insights. Firstly, performing the linear regression with all independent variables indicates that the volatile.acidity, total.sulfur.dioxide, pH, sulphates, and alcohol are the statistically significant roles in the regression that need to be adjusted. Then, running the backward selection to cut down the variables and leave the most important ones for the accuracy.</p>
+  
 ## Model Optimization by Comparing with LASSO
   <p align="justify">In statistics and machine learning, least absolute shrinkage and selection operator (LASSO) is a regression analysis method that performs both variable selection and regularization in order to enhance the prediction accuracy and interpretability of the statistical model it produces. In other words, LASSO is a shrinkage and variable selection method for linear regression model. The advantage of the LASSO model is that LASSO regression works like a feature selector that picks out the most important coefficients(those are most predictive and have the lowest p-values), meanwhile, shrinks these irrelevant coefficients exactly toward zero in order to minimize prediction errors.</p>
+  
 # Statistical Findings after Comparing Different Models 
 <p align="justify">I used the mean square error (MSE) to compare previous model and LASSO model. MSE is the average of the square of the errors. The larger the number, the larger the error. There is no correct value for MSE. In other words, the lower the value the better and 0 means the model is perfect. Since there is no correct answer, comparing the MSE value is a basic method of selecting one prediction model over another.</p>
 
