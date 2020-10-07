@@ -22,7 +22,7 @@ The taste of wine depends on various elements, and is strongly related to 11 typ
 
 # Prelimitary Exploration Analysis
 ## Data cleansing
-![image1](/images/2.png)
+<p align="center">![image1](/images/2.png)</p>
 <p align="justify">
    1. There is no blank entries (N/A) in our data set, but there is around 30% of  Zeros (0) are suitable for this data set because they refer to values of physicochemical test outcomes.<br>
    2. Using <code>boxplot()</code> to examine extreme values, assuming that all abnormal values falling out of upper and lower whiskers line are outliers. There are around 30% values of the dataset considered as outliers, but we couldn't get rid of them all.<br> 
@@ -34,7 +34,7 @@ The taste of wine depends on various elements, and is strongly related to 11 typ
 </p>
 
 # Correlation between Variables
-![image1](/images/1.jpg)
+<p align="center">![image1](/images/1.jpg)</p>
 <p align="justify">
    
 </p> 
