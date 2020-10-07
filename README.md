@@ -9,35 +9,35 @@ The taste of wine depends on various elements, and is strongly related to 11 typ
 
 ## Project sections:
 1. Project topic
-2. [Preliminary Exploratory Analysis](##-prelimitary-exploration-analysis)
-   - [Data cleansing](###data-cleansing)
-   - [Descriptive Statistics](###-descriptive-statistics)
-3. [Correlation between Variables](##correlation-between-variables)
-4. [Model Building: Multiple Linear Regression Model](##-model-building-multiple-linear-legression-model)
-5. [Model Optimization](## Model Optimization)
+2. [Preliminary Exploratory Analysis](#prelimitary-exploration-analysis)
+   - [Data cleansing]
+   - [Descriptive Statistics]
+3. [Correlation between Variables](#correlation-between-variables)
+4. [Model Building: Multiple Linear Regression Model](#model-building-multiple-linear-legression-model)
+5. [Model Optimization](#model-optimization)
    - Model Optimization by Utilizing Stepwise Regression
    - Model Optimization by Comparing with LASSO
-6. [Statistical Findings after Comparing Different Models](## Statistical Findings after Comparing Different Models)
-7. [Conclusion and insights](## Conclusion and insights)
+6. [Statistical Findings after Comparing Different Models](#statistical-findings-after-comparing-different-models)
+7. [Conclusion and insights](#conclusion-and-insights)
 
-## Prelimitary Exploration Analysis
-### Data cleansing
+# Prelimitary Exploration Analysis
+## Data cleansing
    
    
-### Descriptive Statistics
+## Descriptive Statistics
 
 
-## Correlation between Variables
+# Correlation between Variables
  
-## Model Building: Multiple Linear Regression Model
+# Model Building: Multiple Linear Regression Model
 
 
-## Model Optimization
-   - Model Optimization by Utilizing Stepwise Regression
-   - Model Optimization by Comparing with LASSO
+# Model Optimization
+  ## Model Optimization by Utilizing Stepwise Regression
+  ## Model Optimization by Comparing with LASSO
 
 
-## Statistical Findings after Comparing Different Models 
+# Statistical Findings after Comparing Different Models 
 
 
-## Conclusion and insights
+# Conclusion and insights
