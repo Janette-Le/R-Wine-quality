@@ -9,13 +9,35 @@ The taste of wine depends on various elements, and is strongly related to 11 typ
 
 ## Project sections:
 1. Project topic
-2. Preliminary Exploratory Analysis
-   - Data cleansing
-   - Descriptive Statistics
-3. Correlation between Variables
-4. Model Building: Multiple Linear Regression Model
-5. Model Optimization
+2. [Preliminary Exploratory Analysis](## Prelimitary Exploration Analysis)
+   - [Data cleansing](### Data cleansing)
+   - [Descriptive Statistics](### Descriptive Statistics)
+3. [Correlation between Variables](## Correlation between Variables)
+4. [Model Building: Multiple Linear Regression Model](## Model Building: Multiple Linear Regression Model)
+5. [Model Optimization](## Model Optimization)
    - Model Optimization by Utilizing Stepwise Regression
    - Model Optimization by Comparing with LASSO
-6. Statistical Fndings after Comparing Different Models 
-7. Conclusion and insights
+6. [Statistical Findings after Comparing Different Models](## Statistical Findings after Comparing Different Models)
+7. [Conclusion and insights](## Conclusion and insights)
+
+## Prelimitary Exploration Analysis
+### Data cleansing
+   
+   
+### Descriptive Statistics
+
+
+## Correlation between Variables
+ 
+## Model Building: Multiple Linear Regression Model
+
+
+## Model Optimization
+   - Model Optimization by Utilizing Stepwise Regression
+   - Model Optimization by Comparing with LASSO
+
+
+## Statistical Findings after Comparing Different Models 
+
+
+## Conclusion and insights
