@@ -58,4 +58,4 @@ The taste of wine depends on various elements, and is strongly related to 11 typ
 
 # Conclusion and insights
 <p align="justify">Although both multiple linear regression model and LASSO model generate the relatively same MSE, I prefer to use LASSO since the model is more accurate on variable selections. By utilizing LASSO model I covered all the significant independent variables which show up in the both multiple linear regression model and stepwise regression model with minimized prediction error.<br>
-   Wine quality is a complex study, good wine is more than perfect combination of different chemical components. Under the regression techniques have been applied, I found out that</p> **alcohol, sulphates, chloride, and acidity** play a major role in determining the quality scores.
+   Wine quality is a complex study, good wine is more than perfect combination of different chemical components. Under the regression techniques have been applied, I found out that alcohol, sulphates, chloride, and acidity play a major role in determining the quality scores.</p>
